@@ -1,0 +1,58 @@
+# section information
+section:
+  name: Erfahrungen
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company: 
+    name: Netlution GmbH
+    url: "https://netlution.de/"
+    location: Remote (Ludwigshafen)
+    logo: /images/sections/experiences/netlution.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company1.jpg
+    # company overview
+    overview: IT Consulting Firma
+  positions:
+  - designation: IT Consultant
+    start: Jan 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - IT Consultant
+    - Consulting für IT Architektur, DevOps und Linux Automation
+    - Schlüsseltechnologien enthalten Ansible, Kubernetes (RKE2, Rancher) und GitLab
+
+- company: 
+    name: bitbone AG
+    url: "https://www.bitbone.de"
+    location: Würzburg, Germany
+    logo: /images/sections/experiences/bitbone_logo_rot.svg
+    overview: IT Service Provider für kleine bis mittelgroße Firmen. IT Security und Linux Systeme
+  positions:
+  - designation: IT Systemadministrator
+    start: Mar 2020
+    end: Dec 2022
+    responsibilities:
+    - Kundensupport
+    - Ausbildung von Azubis und Onboarding neuer Kollegen
+    - Administration der MS365 infrastructure
+    - Administration der gestamten internen IT Infrastruktur (Bare Metal, RHV, Netzwerk, Firewalls, Red Hat Systems, Software, etc.)
+    - Architektur und Consulting für Kunden (Linux, Red Hat, etc.)
+  - designation: Ausbildung zum Fachinformatiker für Systemintegration
+    start: Sep 2017
+    end: Feb 2020
+    responsibilities:
+    - Allgemeine interne Aufgaben
+    - Organisieren und Teilnahme an internen und externen Workshops
+    - Kundensupport
+    - Systemadministration Linux, Windows, MS 365
+    - Administration von komplexen Email-Infrastrukturen
+    - Administration von Netzwerken und (Sophos) Firewalls

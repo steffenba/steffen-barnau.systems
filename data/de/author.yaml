@@ -2,7 +2,7 @@
 name: "Steffen Barnau"
 nickname: "Steffen"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hey, I'm"
+greeting: "Hey, ich bin"
 image: "images/author/john.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
@@ -13,10 +13,10 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - DevOps-Consultant
-  - Ansible automation enthusiast
-  - Kubernetes enjoyer
-  - Ruthless problem-solver
-  - Process-maker
-  - You waited quite long to read this one, haha
-  - Start at [0]
+  - DevOps Consultant
+  - Ansible Automation Enthusiast
+  - Kubernetes-Genießer
+  - Problemlöser
+  - Prozessmacher
+  - Du hast lange gewartet, um dies zu lesen, haha
+  - Zurück zu [0]

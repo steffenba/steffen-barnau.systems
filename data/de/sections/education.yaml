@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Education
+  name: Bildung
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
@@ -10,7 +10,7 @@ section:
   # hideTitle: true
 
 degrees:
-- name: IT Specialist System Integration
+- name: Fachinformatiker Systemintegration
   icon: fa-school
   timeframe: 2017-2020
   institution:
@@ -20,11 +20,11 @@ degrees:
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/tech_college.png
 
-- name: Student Bachlor of Science Student of Geography (no degree)
+- name: Student Bachlor of Science Geographie (ohne Abschluss)
   icon: fa-university
   timeframe: 2013-2017
   institution:
-    name: University of Cologne Geographic Institute
+    name: Universität zu Köln, Geographisches Institut
     url: "https://geographie.uni-koeln.de/"
     logo: /images/sections/education/unikoeln.svg
 - name: Abitur (2,5)

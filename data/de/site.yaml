@@ -7,7 +7,7 @@ You can modify or distribute the theme without requiring any permission from the
 However, the theme author does not provide any warranty or takes any liability for any issue with the theme."
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: Portfolio and personal blog of Steffen Barnau.
+description: Portfolio und Blog von Steffen Barnau.
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
@@ -20,7 +20,7 @@ customMenus:
   # if you set it to true, make sure you have set `footer.navigation.customMenus: true` in your config.yaml
   showOnFooter: false
 
-- name: Imprint (DE)
+- name: Impressum
   url: https://steffen-barnau.systems/posts/generic_category/legal/impressum/impressum/
   hideFromNavbar: false
   showOnFooter: true
@@ -28,8 +28,8 @@ customMenus:
 
 # Specify OpenGraph Headers
 openGraph:
-  title: Steffen Barnau's Protfolio and Blog
+  title: Steffen Barnaus Protfolio und Blog
   type: website
-  description: Portfolio and personal blog of Steffen Barnau.
+  description: Portfolio und Blog von Steffen Barnau.
   image: images/author/john.png
   url: https://steffen-barnau.systems
