@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: /posts/generic_category/legal/impressum/
-Sitemap: https://steffen-barnau.systems/sitemap.xml
