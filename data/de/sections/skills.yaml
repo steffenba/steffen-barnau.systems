@@ -5,70 +5,56 @@ section:
   enable: true
   weight: 2
   showOnNavbar: true
-  filter: true
   # Can optionally hide the title in sections
   # hideTitle: true
-
-# filter buttons
-buttons:
-- name: All
-  filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
-  filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
 - name: Ansible
   logo: /images/sections/skills/Ansible_logo.svg
-  summary: "Highly proficient in automating Linux infrastructure, systems, software, etc. using Ansible and AAP2+"
+  summary: "Sehr gute Kenntnisse in der Automatisierung von Linux-Infrastruktur, Systemen, Software, etc. unter Vernwendung von Ansible und AAP2+"
   url: "https://www.ansible.com/"
 
 - name: Kubernetes
   logo: /images/sections/skills/kubernetes.png
-  summary: "Designing Kubernetes Clusters and Application Deployments. Proficient in managing Operators."
+  summary: "Gestaltung von Kubernetes Clustern und Applikations-Deployments. Erfahrungen in Umgang und Management von Kubernetes Operatoren."
   url: "https://kubernetes.io/"
 
 - name: ArgoCD
   logo: /images/sections/skills/argocd.png
-  summary: "Deploying Helm and Kustomize Apps via ArgoCD and managing automatic updates via Argo Image Updater."
+  summary: "Deployment von Helm und Kustomize Apps via ArgoCD and Verwaltung von automatischen Updates via Argo Image Updater."
   url: "https://argo-cd.readthedocs.io/en/stable/"
 
 - name: GitLab (CI/CD)
   logo: /images/sections/skills/gitlab.svg
-  summary: "Configuring, running, maintaining and managing GitLab and GitLab CI/CD pipelines."
+  summary: "Konfiguration, Betrieb, Instandhaltung und Verwaltung von GitLab und GitLab CI/CD Pipelines."
   url: "https://golang.org/"
 
 - name: Linux Administration (RHEL, SLES, Debian, Ubuntu, etc.)
   logo: /images/sections/skills/linux_flat.svg
-  summary: "Highly proficient in administration, automation, security, scripting, networking, debugging, etc."
+  summary: "Sehr gute Kenntnisse in der Administration, Automation, Security, Scripting, Networking, Debugging, etc."
 
 - name: Docker/Podman/Containerization
   logo: /images/sections/skills/docker.svg
-  summary: "Building end-to-end pipelines for OCI images, following best practices and security considerations."
+  summary: "Erstellung end-to-end pipelines für OCI images, unter Berücksichtigung von Best Practices und Security."
   url: "https://www.docker.com/"
 
 - name: Prometheus
   logo: /images/sections/skills/prometheus.png
-  summary: "Setting up, managing, updating, automating Prometheus. Implementing custom exporters in Python."
+  summary: "Aufsetzen, Verwaltung, Updates und Automatisierung von Prometheus."
   url: "https://prometheus.io/"
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced in git-based development, mostly using GitLab."
+  summary: "Erfahren in git-basierter Entwicklung, vor allem in der Nutzung von GitLab."
   url: "https://git-scm.com/"
 
 - name: Python
   logo: /images/sections/skills/python-logo-only.png
-  summary: "Intermediary knowledge in Python scripting."
+  summary: "Erfahren in Python scripting."
 
 - name: Proxmox
   logo: /images/sections/skills/proxmox.svg
-  summary: "Setup, maintenance and architecture for Proxmox VE and BS."
+  summary: "Setup, Wartung und Architektur von Proxmox VE and BS."
   url: "https://www.proxmox.com/"

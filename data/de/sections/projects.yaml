@@ -1,0 +1,76 @@
+# section information
+section:
+  name: Projekte
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: Alle
+  filter: "all"
+- name: Beruflich
+  filter: "beruflich"
+- name: Hobby
+  filter: "hobby"
+
+projects:
+- name: Design und Automatisierung eines Kubernetes Clusters (K3s, Ansible)
+  logo: /images/sections/projects/kubernetes.png
+  role: Hobby
+  timeline: "Apr 2024 - "
+  summary:  Aufsetzen eines K3s basierten Kubernetes Clusters, Automatisierung von Updates via Ansible + System Upgrade Controller, Installieren und Verwalten von apps via ArgoCD, OLM, etc.
+  tags: ["hobby", "ansible", "gitlab", consulting, implementation, gitlab, rancher, k3s, k8s, container]
+
+- name: Linux und DevOps consulting
+  logo: /images/sections/projects/linux.png
+  role: Consultant
+  timeline: "Apr 2024 - "
+  summary: Erstellung von GitLab Pipelines für diverse Deployments (RPM, OCI), Design und Installation eines Kubernetes Clusters (Rancher + RKE2), allgemeiner Support, Ansible automation
+  tags: ["beruflich", "ansible", "gitlab", consulting, implementation, gitlab, rancher, rke2, k8s, rpm, oci, container]
+
+- name: Ansible und GitLab CI/CD consulting
+  logo: /images/sections/projects/Ansible_logo.svg
+  role: Consultant
+  timeline: "Apr 2023 - Mar 2024"
+  summary: Erstellung von GitLab Pipelines für OCI Images, Ansible implementation/debugging, interne Kommunikation, Dokumentation
+  tags: ["beruflich", "ansible", "gitlab", consulting, implementation]
+
+- name: Aufbau von GitLab basierten VM Deployments und Ansible Automatisierung
+  logo: /images/sections/projects/gitlab.svg
+  role: Consultant, Engineer
+  timeline: "Jan 2023 - Mar 2023"
+  summary: Erstellung von GitLab Pipelines für Ansible, Erstellung Ansible Code, Consulting für RHEL, Satellite, Podman/Docker, PoC Hashicorp Vault
+  tags: ["beruflich", "ansible", "gitlab", consulting, implementation, satellite, podman, docker, containers, "hashicorp vault"]
+
+- name: Ansible Re-Implementation
+  logo: /images/sections/projects/Ansible_logo.svg
+  role: Project Lead, Developer
+  timeline: "Jan 2022 - Dec 2022"
+  summary: Collection-basierte Re-Implementation des kompletten Ansible Codes und Inventories, Updates auf AAP2.
+  tags: ["beruflich", "ansible", "ansible automation platform 2", consulting, implementation]
+
+- name: Red Hat Satellite + Red Hat IDM (FreeIPA) Implementation und Architektur
+  logo: /images/sections/projects/Red_Hat_2019_logo.svg
+  role: Architect, Engineer, Support
+  timeline: "Jan 2022 - March 2022"
+  summary: Greenfield Implementation von Satellite und IDM zur Verwaltung von einer RHEL-basierten Linux Umgebung.
+  tags: ["beruflich", "engineering", "consulting", "support", "satellite", "idm", "freeipa"]
+
+- name: Neuaufbau einer IT Infrastruktur, AD, Clients, Email Infrastruktur und Collaboration
+  logo: /images/sections/projects/Microsoft_Exchange.svg
+  role: Architect, Engineer, Support
+  timeline: "Jan 2021 - June 2022"
+  summary: Gesamter Neuaufbau der IT-Infrastruktur eines kleinen Kunden mit Hypervisor (RHV), Netzwerk, (Samba) AD, EXO, Terminal Server, Clients, etc. 
+  tags: ["beruflich", "engineering", "consulting", "support", "samba", "exchange online", "microsoft", "mail archive", "endpoints", "networking"]
+
+- name: Consulting Linux-Auditing AIDE/auditd
+  logo: /images/sections/projects/Red_Hat_2019_logo.svg
+  role: Consultant
+  timeline: "Mar 2022 - Mar 2022"
+  summary: Consulting für Versicherungskonzern zur Absicherung der Linux Umgebung via Ansible und AIDE/auditd.
+  tags: ["beruflich", "ansible", "security", "auditd", "aide", "consulting"]
+

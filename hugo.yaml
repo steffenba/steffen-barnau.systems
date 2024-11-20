@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://steffen-barnau.systems
 
-languageCode: bn
-title: "John's Blog"
+languageCode: de
+title: "Steffen Barnaus Portfolio und Blog"
 
 # Use Hugo modules to add theme
 module:
@@ -23,15 +23,16 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
-    weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
+    title: "Steffen Barnau's Portfolio and Blog"
     weight: 2
+  de:
+    languageCode: de
+    languageName: Deutsch
+    title: "Steffen Barnaus Portfolio und Blog"
+    weight: 1
 # default language for the content
-defaultContentLanguage: en
+defaultContentLanguage: de
+defaultContentLanguageInSubdir: true
 
 
 # Allow raw html in markdown file
@@ -68,9 +69,9 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/steffenba/steffen-barnau.systems
   # Default branch of your Git repo
-  gitBranch: main
+  gitBranch: dev
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
@@ -102,16 +103,16 @@ params:
       showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
-        facebook: true
-        twitter: true
+        facebook: false
+        twitter: false
         linkedin: true
-        reddit: true
-        whatsapp: true
+        reddit: false
+        whatsapp: false
         email: true
         # tumblr: true
         # pocket: true
         # diaspora: true
-        # mastodon: true
+        mastodon: true
 
     # Enable & configure "Notes" features
     notes:
@@ -153,36 +154,11 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
-      services:
-        # Google Analytics
-        google:
-          id: G-H4LBG7NDFZ
-        # # CounterDev
-        # counterDev:
-        #   id: <your counterdev id>
-        # # GoatCounter
-        # goatCounter:
-        #   code: <your goat counter code>
-        # # Matomo / Piwik
-        # matomo:
-        #   instance: matomo.example.com
-        #   siteId: 1 # Or any other number
+      enabled: false
 
     # Enable Support
     support:
       enable: false
-      services:
-        kofi:
-          user: hossainemruz
-          text: Tip Me
-          textColor: '#f9fafc'
-          backgroundColor: '#248aaa'
-        # buymeacoffee:
-        #   user: <your buymeacoffee.com user>
-        #   text: Support me on Buy me a coffee!
-        #   info: Buy me a coffee!
-        #   color: '#FFDD00'
 
     # specify whether you want to show Table of Contents in reading page
     toc:
@@ -285,7 +261,7 @@ params:
     template: footer.html
     # Show/hide navigation in the footer. Default is "true".
     navigation:
-      enable: true
+      enable: false
       # show custom menus in the footer
       customMenus: true
     # Show/hide "Contact Me" section in the footer. Default is "true".

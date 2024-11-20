@@ -1,6 +1,6 @@
 # section information
 section:
-  name: About
+  name: Über
   id: about
   enable: true
   weight: 1
@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: "I'm a DevOps Consultant with a strong Linux background. I started out as a Systems-Administrator and improved my knowledge through several years of working with state of the art tooling to make it here!"
+summary: "Ich bin ein DevOps Consultant mit einem starken Linux-Hintergrund. Angefangen habe ich als Systemadministrator. Durch stetige Nutzung von state-of-the-art DevOps tools, habe ich es hierhin geschafft!"
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -60,7 +60,7 @@ socialLinks:
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 # resourceLinks:
-# - title: "Current CV"
+# - title: "Lebenslauf"
 #   url: "files/resume.pdf"
 
 # Show your badges
@@ -88,7 +88,7 @@ badges:
   badge: "https://images.credly.com/images/19c4e804-54fe-4857-b022-7cfd5520596c/image.png"
 
 - type: soft-skill-indicator
-  name: Teaching
+  name: Unterrichten
   percentage: 90
   color: blue
 
@@ -103,12 +103,12 @@ badges:
   color: orange
 
 - type: soft-skill-indicator
-  name: Communication
+  name: Kommunikation
   percentage: 95
   color: green
 
 - type: soft-skill-indicator
-  name: DevOps Mindset and Workflows
+  name: DevOps Mindset und Workflows
   percentage: 90
   color: blue
 
