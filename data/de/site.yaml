@@ -21,7 +21,7 @@ customMenus:
   showOnFooter: false
 
 - name: Impressum
-  url: https://steffen-barnau.systems/posts/generic_category/legal/impressum/impressum/
+  url: https://steffen-barnau.systems/de/posts/generic_category/legal/impressum/impressum/
   hideFromNavbar: false
   showOnFooter: true
 
