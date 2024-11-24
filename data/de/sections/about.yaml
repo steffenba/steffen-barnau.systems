@@ -19,14 +19,14 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: "Ich bin ein DevOps Consultant mit einem starken Linux-Hintergrund. Angefangen habe ich als Systemadministrator. Durch stetige Nutzung von state-of-the-art DevOps tools, habe ich es hierhin geschafft!"
+summary: "Ich bin ein DevOps Consultant mit einem ausgeprägten Linux-Background. Angefangen habe ich als Systemadministrator. Durch stetige Nutzung von state-of-the-art Tools und Technologien, erweitere ich meinen Horizont und mein Skillset."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "contact@steffen-barnau.systems"
+  url: "SteffenBarnau@gmx.de"
 
 - name: Github
   icon: "fab fa-github"
